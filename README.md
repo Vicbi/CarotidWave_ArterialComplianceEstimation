@@ -1,7 +1,9 @@
-# CarotidWave_ArterialComplianceEstimation
+c# CarotidWave_ArterialComplianceEstimation
 ## On the assessment of arterial compliance from carotid pressure waveform
 
 This repository contains the Python code for random forest and artificial neural network-enabled estimators for total arterial compliance. Carotid blood pressure waveform is used as input.
+
+This code contains an enhanced iteration of the code and analysis employed in this study. It is important to note that the final results may exhibit variances from those originally reported in the paper. These discrepancies arise primarily from refinements in how we process the input waveform, add the artificial noise and compute the associated features. These updates have been implemented to ensure a more precise and comprehensive analysis, while they do not lead to conflicting results in comparison to the original findings.
 
 **Abstract**
 
