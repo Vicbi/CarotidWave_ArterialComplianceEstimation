@@ -309,7 +309,7 @@ def find_dicrotic_notch(signal,heart_rate,verbose):
 
 def prepare_dataset(model_selection,prediction_variable,verbose,noise_mode,snr_dB):
     # Read data outside the function if feasible
-    data_waves = pd.read_csv('asklepios_carotid_waves.csv')
+    data_waves = pd.read_csv('Data/asklepios_carotid_waves.csv')
     
     if noise_mode:
         for index, row in data_waves.iterrows():
